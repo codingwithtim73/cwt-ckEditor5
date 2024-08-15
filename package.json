@@ -1,0 +1,27 @@
+{
+  "name": "cwt-ckeditor5",
+  "version": "2.0.0",
+  "description": "A custom CKEditor 5 build incorporating all non-premium features",
+  "main": "dist/ckeditor.js",
+  "type": "module",
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "ckeditor5": "43.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingwithtim73/cwt-ckeditor5-builder.git"
+  },
+  "keywords": [
+    "CKEditor",
+    "ckeditor5",
+    "custom build"
+  ],
+  "author": "Tim Ramseyer",
+  "license": "MIT"
+}
