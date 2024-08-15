@@ -1,6 +1,6 @@
 {
   "name": "cwt-ckeditor5",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A custom CKEditor 5 build incorporating all non-premium features",
   "main": "dist/ckeditor.js",
   "type": "module",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codingwithtim73/cwt-ckeditor5-builder.git"
+    "url": "git+https://github.com/codingwithtim73/cwt-ckEditor5.git"
   },
   "keywords": [
     "CKEditor",
