@@ -3,7 +3,8 @@ export default {
     lib: {
       entry: "main.js",
       name: "CKEditor",
-      fileName: (format) => `ckeditor.${format}.js`,
+      formats: ["es"],
+      fileName: () => `ckeditor.js`,
     },
     outDir: "dist",
   },
