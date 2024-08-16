@@ -46,7 +46,7 @@ import TableToolbar from "@ckeditor/ckeditor5-table/src/tabletoolbar";
 import TextTransformation from "@ckeditor/ckeditor5-typing/src/texttransformation";
 import Undo from "@ckeditor/ckeditor5-undo/src/undo";
 
-// Updated plugin imports
+// Additional plugins needed
 import Underline from "@ckeditor/ckeditor5-basic-styles/src/underline";
 import Strikethrough from "@ckeditor/ckeditor5-basic-styles/src/strikethrough";
 import Subscript from "@ckeditor/ckeditor5-basic-styles/src/subscript";
@@ -56,6 +56,10 @@ import FontColor from "@ckeditor/ckeditor5-font/src/fontcolor";
 import FontBackgroundColor from "@ckeditor/ckeditor5-font/src/fontbackgroundcolor";
 import SpecialCharacters from "@ckeditor/ckeditor5-special-characters/src/specialcharacters";
 import Code from "@ckeditor/ckeditor5-basic-styles/src/code";
+import BulletedList from "@ckeditor/ckeditor5-list/src/bulletedlist"; // For bulletedList
+import NumberedList from "@ckeditor/ckeditor5-list/src/numberedlist"; // For numberedList
+import MediaEmbed from "@ckeditor/ckeditor5-media-embed/src/mediaembed"; // For mediaEmbed
+import RemoveFormat from "@ckeditor/ckeditor5-remove-format/src/removeformat"; // For removeFormat
 
 ClassicEditor.builtinPlugins = [
   Essentials,
@@ -113,6 +117,10 @@ ClassicEditor.builtinPlugins = [
   FontBackgroundColor,
   SpecialCharacters,
   Code,
+  BulletedList, // Added bulletedList plugin
+  NumberedList, // Added numberedList plugin
+  MediaEmbed, // Added mediaEmbed plugin
+  RemoveFormat, // Added removeFormat plugin
 ];
 
 ClassicEditor.defaultConfig = {
@@ -129,12 +137,12 @@ ClassicEditor.defaultConfig = {
       "code",
       "link",
       "|",
-      "bulletedList",
-      "numberedList",
+      "bulletedList", // For bulleted lists
+      "numberedList", // For numbered lists
       "blockquote",
       "imageUpload",
       "insertTable",
-      "mediaEmbed",
+      "mediaEmbed", // For embedding media
       "alignment",
       "fontSize",
       "fontColor",
@@ -144,7 +152,7 @@ ClassicEditor.defaultConfig = {
       "horizontalLine",
       "specialCharacters",
       "|",
-      "removeFormat",
+      "removeFormat", // For removing formatting
       "undo",
       "redo",
     ],
