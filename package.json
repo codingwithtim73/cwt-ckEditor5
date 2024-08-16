@@ -1,6 +1,6 @@
 {
   "name": "cwt-ckeditor5",
-  "version": "2.0.3",
+  "version": "3.0.0",
   "description": "A custom CKEditor 5 build incorporating all non-premium features",
   "main": "dist/ckeditor.js",
   "type": "module",
