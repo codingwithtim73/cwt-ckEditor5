@@ -46,16 +46,16 @@ import TableToolbar from "@ckeditor/ckeditor5-table/src/tabletoolbar";
 import TextTransformation from "@ckeditor/ckeditor5-typing/src/texttransformation";
 import Undo from "@ckeditor/ckeditor5-undo/src/undo";
 
-// Additional plugins needed
-import Underline from "@ckeditor/ckeditor5-basic-styles/src/underline"; // For underline
-import Strikethrough from "@ckeditor/ckeditor5-basic-styles/src/strikethrough"; // For strikethrough
-import Subscript from "@ckeditor/ckeditor5-basic-styles/src/subscript"; // For subscript
-import Superscript from "@ckeditor/ckeditor5-basic-styles/src/superscript"; // For superscript
-import FontSize from "@ckeditor/ckeditor5-font/src/fontsize"; // For font size
-import FontColor from "@ckeditor/ckeditor5-font/src/fontcolor"; // For font color
-import FontBackgroundColor from "@ckeditor/ckeditor5-font/src/fontbackgroundcolor"; // For font background color
-import SpecialCharacters from "@ckeditor/ckeditor5-special-characters/src/specialcharacters"; // For special characters
-import Code from "@ckeditor/ckeditor5-basic-styles/src/code"; // For inline code
+// Updated plugin imports
+import Underline from "@ckeditor/ckeditor5-basic-styles/src/underline";
+import Strikethrough from "@ckeditor/ckeditor5-basic-styles/src/strikethrough";
+import Subscript from "@ckeditor/ckeditor5-basic-styles/src/subscript";
+import Superscript from "@ckeditor/ckeditor5-basic-styles/src/superscript";
+import FontSize from "@ckeditor/ckeditor5-font/src/fontsize";
+import FontColor from "@ckeditor/ckeditor5-font/src/fontcolor";
+import FontBackgroundColor from "@ckeditor/ckeditor5-font/src/fontbackgroundcolor";
+import SpecialCharacters from "@ckeditor/ckeditor5-special-characters/src/specialcharacters";
+import Code from "@ckeditor/ckeditor5-basic-styles/src/code";
 
 ClassicEditor.builtinPlugins = [
   Essentials,
@@ -104,15 +104,15 @@ ClassicEditor.builtinPlugins = [
   TableToolbar,
   TextTransformation,
   Undo,
-  Underline, // Added underline plugin
-  Strikethrough, // Added strikethrough plugin
-  Subscript, // Added subscript plugin
-  Superscript, // Added superscript plugin
-  FontSize, // Added font size plugin
-  FontColor, // Added font color plugin
-  FontBackgroundColor, // Added font background color plugin
-  SpecialCharacters, // Added special characters plugin
-  Code, // Added code plugin
+  Underline,
+  Strikethrough,
+  Subscript,
+  Superscript,
+  FontSize,
+  FontColor,
+  FontBackgroundColor,
+  SpecialCharacters,
+  Code,
 ];
 
 ClassicEditor.defaultConfig = {
@@ -126,7 +126,7 @@ ClassicEditor.defaultConfig = {
       "strikethrough",
       "subscript",
       "superscript",
-      "code", // Added code to the toolbar
+      "code",
       "link",
       "|",
       "bulletedList",
